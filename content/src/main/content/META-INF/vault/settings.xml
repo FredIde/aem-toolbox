@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vault version="1.0">
+  <ignore name=".svn"/>
+  <ignore name=".idea"/>
+  <ignore name=".DS_Store"/>
+  <ignore name="target"/>
+  <ignore name=".project"/>
+  <ignore name=".settings"/>
+  <ignore name=".classpath"/>
+  <ignore name=".git"/>
+</vault>

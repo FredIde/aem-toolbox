@@ -1,0 +1,41 @@
+.at-content {
+    padding: 1em 1em 1em 1em;
+}
+.at-stat {
+    background: linear-gradient(to bottom, #f9f9f9 0%, #e3e3e3 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    padding: 0.5em;
+}
+.dmg-paths {
+    font-size: 0.7em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+.dmg-patchresult {
+    padding: 1em 1em 1em 1em;
+    background: linear-gradient(to bottom, #f9f9f9 0%, #e3e3e3 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.dmg-summary {
+    margin-bottom: 1em;
+}
+.dmg-error {
+    color: #f00;
+}
+.dmg-header {
+    font-weight: bold;
+    font-family: "AdobeClean";
+    font-size: 1.2em;
+}
+.pkgsize-submit {
+    margin-left: 1em;
+    margin-top: 1em;
+}
+.pkgsize-listitem {
+    height: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.pkgsize-meta {
+    height: 0.5em;
+    color: #a8a8a8;
+}
