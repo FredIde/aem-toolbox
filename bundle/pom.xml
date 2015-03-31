@@ -93,12 +93,6 @@
 			<artifactId>mockito-all</artifactId>
 		</dependency>
 
-        <dependency>
-            <groupId>org.apache.servicemix.bundles</groupId>
-            <artifactId>org.apache.servicemix.bundles.freemarker</artifactId>
-        </dependency>
-
-
     </dependencies>
 
     <!-- ====================================================================== -->

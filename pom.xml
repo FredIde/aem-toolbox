@@ -130,13 +130,6 @@
 				<scope>test</scope>
 			</dependency>
 
-            <dependency>
-                <groupId>org.apache.servicemix.bundles</groupId>
-                <artifactId>org.apache.servicemix.bundles.freemarker</artifactId>
-                <version>2.3.20_1</version>
-                <scope>provided</scope>
-            </dependency>
-
         </dependencies>
     </dependencyManagement>
 

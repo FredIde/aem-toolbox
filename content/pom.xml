@@ -100,40 +100,5 @@
                 </plugins>
             </build>
         </profile>
-        <profile>
-            <id>withDependencies</id>
-            <dependencies>
-                <dependency>
-                    <groupId>org.apache.servicemix.bundles</groupId>
-                    <artifactId>org.apache.servicemix.bundles.freemarker</artifactId>
-                </dependency>
-            </dependencies>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>com.day.jcr.vault</groupId>
-                        <artifactId>content-package-maven-plugin</artifactId>
-                        <extensions>true</extensions>
-                        <configuration>
-                            <group>Tricode</group>
-                            <filterSource>META-INF/vault/filter.xml</filterSource>
-                            <embeddeds>
-                                <embedded>
-                                    <groupId>${project.groupId}</groupId>
-                                    <artifactId>aem-tools-core</artifactId>
-                                    <target>/apps/aemtools/install</target>
-                                </embedded>
-                                <embedded>
-                                    <groupId>org.apache.servicemix.bundles</groupId>
-                                    <artifactId>org.apache.servicemix.bundles.freemarker</artifactId>
-                                    <target>/apps/aemtools/install</target>
-                                </embedded>
-                            </embeddeds>
-                            <targetURL>http://${crx.host}:${crx.port}/crx/packmgr/service.jsp</targetURL>
-                        </configuration>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
     </profiles>
 </project>
